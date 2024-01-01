@@ -18,7 +18,7 @@
 }
 .btn{
     display: block;
-    margin: 5rem auto;
+    margin: 2rem auto;
     border: none;
     outline: none;
     width: 100px;
@@ -31,4 +31,16 @@
 }
 .btn:hover{
     box-shadow: inset 100px 0 0 0 #230563;
+}
+.msgDiv{
+    display: flex;
+    justify-content: center;
+}
+.Message{    
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 50%;
+    color: #fff;
+    font-size: 1.5rem;
 }
